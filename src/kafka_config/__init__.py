@@ -1,6 +1,9 @@
 
 import os
 
+
+SECURITY_PROTOCOL="SASL_SSL"
+SSL_MACHENISM="PLAIN"
 API_KEY = os.getenv('API_KEY',None)
 ENDPOINT_SCHEMA_URL  = os.getenv('ENDPOINT_SCHEMA_URL',None)
 API_SECRET_KEY = os.getenv('API_SECRET_KEY',None)

@@ -6,3 +6,4 @@ logs/*
 *.log
 *.pyc
 Credential.md
+env/
